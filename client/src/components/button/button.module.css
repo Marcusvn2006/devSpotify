@@ -1,0 +1,25 @@
+.button {
+  padding: 15px 5px;
+  background: #ffffff;
+  border: none;
+  font-weight: 700px;
+  font-size: 12px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 9999px;
+  color: black;
+  width: 127px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+}
+.button:hover {
+  /* transform: scale(1.2); */
+  animation: 0.1s;
+  transition: 0.1s;
+  scale: 1.03;
+}
+.fulwidth {
+  width: 100%;
+}

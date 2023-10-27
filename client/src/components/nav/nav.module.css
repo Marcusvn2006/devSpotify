@@ -1,0 +1,15 @@
+.nav {
+  background: black;
+  width: 320px;
+height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  position:fixed;
+ 
+}
+  .bar{
+margin-top: 20px;
+margin-left: 10px;
+
+  }

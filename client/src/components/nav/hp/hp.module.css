@@ -1,0 +1,33 @@
+.bar{
+  background:   #181818;
+border-radius: 8px;
+width: 320px;
+height: 156px;
+padding-left: 24px;
+padding-left: 24px;
+display: flex;
+flex-wrap: wrap;
+align-content: flex-start;
+justify-content: space-evenly;
+flex-direction: column;
+gap: 2px;
+margin-bottom: 10px;
+}
+.home{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.bar h2{
+    color: #B3B3B3;
+font-size: 8.10px;
+font-family: Inter;
+font-weight: 800;
+line-height: 19.20px;
+word-wrap: break-word
+}
