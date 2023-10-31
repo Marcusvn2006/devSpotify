@@ -17,14 +17,14 @@ const List = () => {
           <h2>Create your first playlist</h2>
           <p>It's easy, we'll help you</p>
           <div className={styles.button}>
-            <Button>clica fdp </Button>
+            <Button>clica  </Button>
           </div>
         </div>
         <div className={styles.creaplay}>
           <h2>Create your first playlist</h2>
           <p>It's easy, we'll help you</p>
           <div className={styles.button}>
-            <Button>clica fdp </Button>
+            <Button>clica  </Button>
           </div>
         </div>
       </div>
