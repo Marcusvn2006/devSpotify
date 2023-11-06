@@ -16,12 +16,13 @@ justify-content: space-between
 width: 100%;
 height: 100%;
 }
-/* .navega1{
-    position: relative;
-    bottom: 35px;
-    width: 100%;
+h1{color: #FFF;
+padding-left: 30px;
+font-family: Inter;
+font-size: 30.8px;
+font-style: normal;
+font-weight: 700;
+line-height: 28.8px;}
+.cole{
+    display:flex;
 }
-.navega{
-    display: flex;
-    align-items: center;
-} */

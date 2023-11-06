@@ -1,17 +1,19 @@
 import { Link } from "react-router-dom";
 import styles from "./cards.module.css";
+import PlayCards from "../playCards/playCard";
 
 const Cards = () => {
   return (
     <div>
-   
-        </div>
-      </div>
       <div className={styles.cont}>
-      
-        <div className={styles.cont1}>
-          <h1>Playlist do Spotify</h1> <Link>mostrar tudo </Link>
-        </div>
+        <h1>Spotfy playlist</h1>
+        <div className={styles.cole}>
+          <PlayCards img={"https://placehold.co/10000x8000"}></PlayCards>
+          <PlayCards img={"https://placehold.co/10000x8000"}></PlayCards>
+          <PlayCards img={"https://placehold.co/10000x8000"}></PlayCards>
+          <PlayCards img={"https://placehold.co/10000x8000"}></PlayCards>
+          <PlayCards img={"https://placehold.co/10000x8000"}></PlayCards>
+        </div>{" "}
       </div>
     </div>
   );
