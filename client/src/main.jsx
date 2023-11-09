@@ -7,6 +7,7 @@ import './index.css'
 
 import Erro from './routes/erro.jsx';
 import Home from './routes/home.jsx';
+import Busc from './routes/busc/busc.jsx';
 
 const router = createBrowserRouter([
   {
@@ -14,7 +15,8 @@ const router = createBrowserRouter([
     element: <App />,
     errorElement: <Erro/>,
     children: [
-      { path: "/", element: <Home/> },
+      { path: "/", element: <Home/>},
+      { path: "/busc", element: <Busc/>},
    
     ],
   },

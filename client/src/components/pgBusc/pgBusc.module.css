@@ -1,0 +1,88 @@
+.bar{
+    background:   #121212;
+  border-radius: 8px;
+  width: 1880px;
+  height: 575px;
+  margin-top: 19px;
+  }
+  .bar header{
+    display: flex;
+   background:   rgba(0, 0, 0, 0.50);;
+height: 64px;
+/* gap: 670.875px; */
+/* padding: 8px 23.913px 8px 23.922px; */
+    justify-content: space-between;
+    align-items: center;
+    z-index: 4;
+    border-radius: 8px 8px 0 0;
+  }
+  .bar header div{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+
+  } 
+  .de button{
+    border-radius: 100%;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .dt a{
+    color: #A7A7A7;
+
+font-family: Inter;
+font-size: 20.1px;
+font-style: normal;
+font-weight: 700;
+line-height: 19.2px;
+  }
+  .dt button{
+    display: flex;
+width: 109.38px;
+height: 48px;
+padding: 14.4px 32.38px 13.6px 32px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+color: black;
+background: #Ffff;
+  }
+  .bar1{ 
+    /* background:   #242424;
+   border-radius: 0 0 8px 8px;
+    width: 100%;
+    height:  100%; */
+
+padding-top: 30px;
+    /* margin-top: 40px; */
+  }
+ .navega{
+    height: 30px;
+    background: #121212;
+    width: 100%;
+ }
+.bar input{
+    background-color: #242424;
+    border: 0;
+    border-radius: 500px;
+    color: #fff!important;
+    height: 48px;
+    padding: 6px 36px;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+.search img{
+position: absolute;
+z-index: 7;
+width: 20px;
+
+}
+.search input{
+  position: relative;
+
+  
+  right: 13px;
+}
