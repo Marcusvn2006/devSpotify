@@ -4,6 +4,7 @@ import styles from './pgBusc.module.css'
 import dire from "../../assets/direita.svg"
 import esqu from "../../assets/esquer.svg"
 import pesq from "../../assets/search.svg"
+import VcPr from '../vcPr/vcPr'
 
 const PgBusc = () => {
   return (
@@ -19,7 +20,8 @@ const PgBusc = () => {
           </div></div>
           <div className={styles.dt}>
             {" "}
-            <Link>inscreva-se</Link> <button>Log in</button>{" "}
+            <Link>inscreva-se</Link> 
+           <button>Log in</button>{" "}
           </div>
         </header>
       
