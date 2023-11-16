@@ -4,7 +4,7 @@ import styles from './pgBusc.module.css'
 import dire from "../../assets/direita.svg"
 import esqu from "../../assets/esquer.svg"
 import pesq from "../../assets/search.svg"
-import VcPr from '../vcPr/vcPr'
+import VcPr from './vcPr/vcPr'
 
 const PgBusc = () => {
   return (
@@ -13,7 +13,7 @@ const PgBusc = () => {
        <header>
           <div className={styles.de}>
             {" "}
-            <button><img src={esqu} alt="" /></button>
+            <Link to={"/"}> <button><img src={esqu} alt="" /></button></Link>
             <button><img src={dire} alt="" />
             </button>
             <div className={styles.search}><img src={pesq} alt="" />   <input type="text"placeholder="O que você procura" />

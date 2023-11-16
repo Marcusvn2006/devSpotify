@@ -1,0 +1,64 @@
+footer{
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    align-items: center;
+    background-image: -webkit-gradient(linear,left top,right top,from(#af2896),to(#509bf5));
+    background-image: linear-gradient(90deg,#af2896,#509bf5);
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: space-between;
+    position: relative;
+    width: 95%;
+    height: 60px;
+margin: 20px  20px 0  20px  ;
+    z-index: 1;
+}
+footer div{
+
+}
+.h21{
+    color: white;
+font-size: 16.70px;
+font-family: Inter;
+font-weight: 400;
+text-transform: uppercase;
+line-height: 14.40px;
+letter-spacing: 1.20px;
+word-wrap: break-word
+}
+.h22{
+    color: white;
+font-size: 15.10px;
+font-family: Inter;
+font-weight: 400;
+line-height: 19.20px;
+word-wrap: break-word
+}
+.ss{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+ margin: 10px;
+    height: 100%;
+}
+button{
+
+   
+    width: 100px;
+    height: 30px;
+    border-radius: 9999px;
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}

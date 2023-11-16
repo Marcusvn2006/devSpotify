@@ -10,7 +10,7 @@ const PgPrincip = () => {
   <header>
           <div className={styles.de}>
             {" "}
-            <button><img src={esqu} alt="" /></button>
+          <Link to={"/"}>  <button><img src={esqu} alt="" /></button></Link>
             <button><img src={dire} alt="" />
             </button>
           </div>

@@ -7,3 +7,7 @@
 body {
   background: black;
   }
+  * a{
+    list-style: NONE;
+    text-decoration: none;
+  }

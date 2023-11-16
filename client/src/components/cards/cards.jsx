@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import styles from "./cards.module.css";
-import PlayCards from "../playCards/playCard";
+import PlayCards from "./playCards/playCard";
 
 const Cards = () => {
   return (
